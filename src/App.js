@@ -302,13 +302,15 @@ class App extends React.Component {
                         </Button>
                       </Card.Body>
                     </Card>
-                    <Col>
-                      <TwitterTimelineEmbed
-                          sourceType="timeline"
-                          screenName="travel"
-                          options={{height: 400}}
-                      />
-                    </Col>
+                    <Card>
+                      <Col>
+                        <TwitterTimelineEmbed
+                            sourceType="timeline"
+                            screenName="travel"
+                            options={{height: 400}}
+                        />
+                      </Col>
+                    </Card>
                   </CardDeck>
                 </Container>
               </Container>
