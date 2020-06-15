@@ -44,12 +44,12 @@ class App extends React.Component {
               <Navbar.Brand href="#home">
                 <img
                     src={require("./img/Logo.png")}
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top mr-2"
+                    width="52"
+                    height="52"
+                    className="d-inline-block align-top"
                     alt="React Bootstrap logo"
-                />
-                PAID Travel and Tours</Navbar.Brand>
+                /></Navbar.Brand>
+              <Navbar.Brand>PAID Travel and Tours</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
