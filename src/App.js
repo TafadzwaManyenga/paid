@@ -39,9 +39,17 @@ class App extends React.Component {
     return (
         <div>
           {/*Navigation and Routes Area*/}
-          <div id="nav-bar">
-            <Navbar bg="warning" expand="lg">
-              <Navbar.Brand href="#home">PAID Travel and Tours</Navbar.Brand>
+          <div id="nav-bar dark">
+            <Navbar bg="dark" variant="dark" className={"grad"} expand="lg">
+              <Navbar.Brand href="#home">
+                <img
+                    src={require("./img/Logo.png")}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top mr-2"
+                    alt="React Bootstrap logo"
+                />
+                PAID Travel and Tours</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -57,7 +65,7 @@ class App extends React.Component {
                 </Nav>
                 <Form inline>
                   <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
-                  <Button variant="outline-dark">Search</Button>
+                  <Button variant="outline-warning">Search</Button>
                 </Form>
               </Navbar.Collapse>
             </Navbar>
