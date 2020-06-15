@@ -39,8 +39,8 @@ class App extends React.Component {
     return (
         <div>
           {/*Navigation and Routes Area*/}
-          <div id="nav-bar dark">
-            <Navbar bg="dark" variant="dark" className={"grad"} expand="lg">
+          <div id="nav-bar">
+            <Navbar bg="light" variant="light" className={""} style={{borderBottom: "5px solid darkorange"}} expand="lg">
               <Navbar.Brand href="#home">
                 <img
                     src={require("./img/Logo.png")}
@@ -65,7 +65,7 @@ class App extends React.Component {
                 </Nav>
                 <Form inline>
                   <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
-                  <Button variant="outline-warning">Search</Button>
+                  <Button variant="warning">Search</Button>
                 </Form>
               </Navbar.Collapse>
             </Navbar>
