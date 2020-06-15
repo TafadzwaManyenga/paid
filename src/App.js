@@ -304,11 +304,11 @@ class App extends React.Component {
                     </Card>
                     <Card>
                       <Col>
-                        {/*<TwitterTimelineEmbed*/}
-                        {/*    sourceType="profile"*/}
-                        {/*    screenName="travel"*/}
-                        {/*    options={{height: 400}}*/}
-                        {/*/>*/}
+                        <TwitterTimelineEmbed
+                            sourceType="profile"
+                            screenName="travel"
+                            options={{height: 400}}
+                        />
                       </Col>
                     </Card>
                   </CardDeck>
