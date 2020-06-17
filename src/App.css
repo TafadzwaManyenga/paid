@@ -52,26 +52,7 @@
   /*        rotate(2deg);*/
   /* top: -20px; */
 }
-.line2 {
-  width: 120%;
-  height: auto;
-  border-bottom: 60px solid white;
-  -webkit-transform:
-          translateY(520px)
-          translateX(-3px)
-          rotate(2deg);
-  /* top: -20px; */
-}
-.line3 {
-  width: 150%;
-  height: auto;
-  border-bottom: 60px solid #eeeeee;
-  -webkit-transform:
-          translateY(300px)
-          translateX(-120px)
-          rotate(-1deg);
-  /* top: -20px; */
-}
+
 
 .grad{
   background-image: linear-gradient(to right, orange, midnightblue);

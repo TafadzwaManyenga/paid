@@ -49,7 +49,8 @@ class App extends React.Component {
                     className="d-inline-block align-top"
                     alt="React Bootstrap logo"
                 /></Navbar.Brand>
-              <Navbar.Brand>PAID Travel and Tours</Navbar.Brand>
+              <Navbar.Brand>PAID </Navbar.Brand>
+              <Navbar.Brand>Travel and Tours</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav"/>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -210,29 +211,52 @@ class App extends React.Component {
               </Container>
             </section>
 
-            {/*Packages*/}
+            {/*Products*/}
             <section style={{background:"#eeeeee", padding: "7rem"}}>
               <div className={"line3"}></div>
               <Container>
-                <h3 className="text-center">Packages</h3>
+                <h3 className="text-center">Products</h3>
+                <CardDeck>
+                  <Card>
+                    <Card.Body>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/airplane.svg")}></Card.Img>
+                      <Card.Title>
+                        Flights
+                      </Card.Title>
+                      <Card.Text>
+                        The information contained here will be for the flights and tours package.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Body>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/electric-bus.svg")}></Card.Img>
+                      <Card.Title>
+                        Bus
+                      </Card.Title>
+                      <Card.Text>
+                        The information contained here will be for the flights and tours package.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Body>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/anchor.svg")}></Card.Img>
+                      <Card.Title>
+                        Ferry
+                      </Card.Title>
+                      <Card.Text>
+                        The information contained here will be for the flights and tours package.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </CardDeck>
                 <CardDeck>
                   <Card style={{width: "15rem"}}>
                     <Card.Body>
-                      <Card.Img/>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/beach.svg")}></Card.Img>
                       <Card.Title>
-                        Hotel Package
-                      </Card.Title>
-                      <Card.Text>
-                        The information contained will be for the tourists with a flight and hotel package.
-                      </Card.Text>
-                      <Button>More Info</Button>
-                    </Card.Body>
-                  </Card>
-                  <Card style={{width: "15rem"}}>
-                    <Card.Body>
-                      <Card.Img></Card.Img>
-                      <Card.Title>
-                        Tours Packages
+                        Holiday Packages
                       </Card.Title>
                       <Card.Text>
                         The information contained here will be for the flights and tours package.
@@ -241,12 +265,36 @@ class App extends React.Component {
                   </Card>
                   <Card style={{width: "15rem"}}>
                     <Card.Body>
-                      <CardImg></CardImg>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/bed.svg")}></Card.Img>
                       <Card.Title>
-                        Transport Options
+                        Hotels & Accomodation
                       </Card.Title>
                       <Card.Text>
-                        This card is optional and can include the transportation
+                        The information contained here will be for the flights and tours package.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card style={{width: "15rem"}}>
+                    <Card.Body>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/phone (1).svg")}></Card.Img>
+                      <Card.Title>
+                        Recharge
+                      </Card.Title>
+                      <Card.Text>
+                        The information contained here will be for the flights and tours package.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </CardDeck>
+                <CardDeck>
+                  <Card style={{minWidth: "15rem"}}>
+                    <Card.Body>
+                      <Card.Img style={{maxWidth: "50px"}} src={require("./img/family.svg")}></Card.Img>
+                      <Card.Title>
+                        Insurance
+                      </Card.Title>
+                      <Card.Text>
+                        The information contained here will be for the flights and tours package.
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -322,8 +370,8 @@ class App extends React.Component {
                 <div className="row">
                   <div className="col-md-3">
                     <div className="contact-info">
-                      <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-                      <h2 style={{color: "white"}}>Enquiries</h2>
+                      <img src="https://image.ibb.co/kUASdV/contact-image.png" style={{width: "20px", height: "auto"}} alt="image"/>
+                      <h5 style={{color: "white"}}>Enquiries</h5>
                     </div>
                   </div>
                   <div className="col-md-9">
@@ -366,31 +414,44 @@ class App extends React.Component {
               </div>
             </section>
 
+            {/*Airline Logos*/}
+            <section style={{filter: "grayscale(100%)", background: "#f2f2f2"}}>
+              <Container className="align-content-center">
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/580b57fcd9996e24bc43c530.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/58482354cef1014c0b5e49c0.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/58482363cef1014c0b5e49c1.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/585e9ddbcb11b227491c34fc.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/585e9e12cb11b227491c34fd.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/587b51a144060909aa603a8e.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/587b513744060909aa603a84.png")}/>
+                <img style={{maxHeight:"30px" , margin:"15px"}} src={require("./img/587b518244060909aa603a8b.png")}/>
+              </Container>
+            </section>
+
             {/*Footer*/}
             <div className="footer">
               <footer>
                 <Container>
                   <Row>
                     <Col className={"useful"}>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
+                      <Row><a href="#">Terms & Conditions</a></Row>
+                      <Row><a href="#">Frequently Asked Questions</a></Row>
+                      <Row><a href="#">Support Information</a></Row>
+                      <Row><a href="#">Our Partners</a></Row>
+                      <Row><a href="#">Hotline</a></Row>
                     </Col>
                     <Col>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
-                      <Row><a href="#">Useful Link</a></Row>
+                      <Row><a href="#">Mission Statement</a></Row>
+                      <Row><a href="#">Membership Policy</a></Row>
+                      <Row><a href="#">Packages</a></Row>
+                      <Row><a href="#">Requirements</a></Row>
+                      <Row><a href="#">Covid-19 Travel Advice</a></Row>
                     </Col>
                   </Row>
                 </Container>
                 <hr style={{background: "grey"}}/>
                 <Row>
                   <Col className={"footerCopyright"}>© 2020 PAID Travel and Tours</Col>
-                  <Col className={"footerCopyright"}>Reactive Media Designs</Col>
                 </Row>
               </footer>
             </div>
