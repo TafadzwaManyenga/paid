@@ -25,6 +25,7 @@
   font-max-size: 10pt;
   font-min-size: 10pt;
   font-size: 10pt;
+  height: 190px;
 }
 
 .useful{
@@ -103,3 +104,32 @@
   color: white;
 }
 
+.trav{
+  min-width: 200px;
+}
+
+.contentArea{
+  min-height: 100vh;
+}
+
+.routeBg{
+  background-image: linear-gradient(to bottom, #000c4b, #000e53, #000f5a, #001162, #00126a, #121d76, #1f2783, #2a328f, #4048a3, #555fb7, #6977cb, #7f8fdf);
+}
+
+.item:focus ~ .item,
+.item:hover ~ .item {
+  transform: translateX(25%);
+}
+
+.item {
+  position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+}
+
+.container .item:focus,
+.container .item:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
