@@ -167,11 +167,13 @@ export default class App extends React.Component {
                         <FormLabel>
                           Depart
                         </FormLabel>
+                        <Form.Control type="date" />
                       </Col>
                       <Col>
                         <FormLabel>
                           Return
                         </FormLabel>
+                        <Form.Control type="date"/>
                       </Col>
                       <Col>
                         <FormLabel>
@@ -185,11 +187,6 @@ export default class App extends React.Component {
                             <option>3</option>
                             <option>4</option>
                             <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
                           </Form.Control>
                           <Form.Control as="select">
                             <option>Child</option>
@@ -198,11 +195,6 @@ export default class App extends React.Component {
                             <option>3</option>
                             <option>4</option>
                             <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
                           </Form.Control>
                           <Form.Control as="select">
                             <option>Infant</option>
@@ -211,11 +203,6 @@ export default class App extends React.Component {
                             <option>3</option>
                             <option>4</option>
                             <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
                           </Form.Control>
                         </Row>
                       </Col>
